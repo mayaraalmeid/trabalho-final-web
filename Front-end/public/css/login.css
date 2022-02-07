@@ -1,0 +1,107 @@
+*, *:before, *:after { 
+  margin:0;
+  padding:0;
+  font-family: Arial,sans-serif;
+}
+
+body{
+  margin:10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+.content{
+  width: 500px;
+  margin: 0px auto;
+  position: relative; 
+}
+
+h1{
+  font-size: 35px;
+  color: #FF69B4;
+  padding: 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+p{
+  margin-bottom:15px;
+  font-size: 16px;
+}
+
+label{
+  color: #405c60;
+  position: relative;
+}
+
+input {
+  outline: none;
+}
+
+input:not([type="checkbox"]){
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;  
+  border: 1px solid #FF69B4;
+  
+}
+
+input[type="submit"]{
+  background: #FF69B4;
+  padding: 8px 5px;
+  color: #FFFFFF;
+  font-size: 20px;  
+  border: 1px solid #fff; 
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+
+}
+
+.link{
+  position: absolute;
+  background: #FFFFFF;
+  color: #405c60;
+  left: 0px;
+  height: 20px;
+  width: 440px;
+  padding: 17px 30px 20px 30px;
+  font-size: 16px;
+  text-align: right;
+  border-top: 1px solid #FFFFFF;
+
+}
+.link a {
+  font-weight: bold;
+  background: #FFFFFF;
+  padding: 6px;
+  color: #FF69B4;
+  margin-left: 10px;
+  border: 1px solid #FFFFFF;
+
+}
+.link a:hover {
+  color: #FF69B4;
+  background: #FFFFFF;
+  border: 1px solid #FF69B4;
+}
+
+#cadastro, 
+#login{
+  position: absolute;
+  top: 0px;
+  width: 88%; 
+  padding: 18px 6% 60px 6%;
+  margin: 0 0 35px 0;
+  background: #FFFFFF;
+  border: 1px solid #FF69B4;
+ 
+}
+
+  
+  

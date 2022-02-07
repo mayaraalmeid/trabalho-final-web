@@ -1,0 +1,98 @@
+  
+  #container  {  	
+	margin: 1em auto;  	
+	width: 650px;  	
+
+	} 
+
+  body{
+    margin:10px;
+    
+    
+  }
+  #teste{
+    width: 400px;
+    height: 300px;
+    
+  }
+  h1{
+    font-size: 35px;
+    color: #111111;
+    padding: 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px;
+    cursor:pointer;
+    overflow: hidden;  
+
+}
+
+
+.box{
+  width:auto; 
+  height:400px;
+  background:rgb(241, 227, 237);	
+  bottom:0;
+  left:10px;
+  text-align:left;
+}
+h1{
+  font-size: 35px;
+  color: #FF69B4;
+  padding: 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+  top: 0;
+}
+.container1 {
+  display:grid;
+  grid-template-columns: 25% 60%;
+  grid-template-rows: 30px 1000px 20px;
+  grid-template-areas: "header header" "sidenav content" "footer footer";
+  grid-row-gap: 15px;
+  
+}
+.header{
+  grid-area: header;
+  background-color: #FF69B4;
+  text-align: center;
+}
+.sidenav{
+  grid-area: sidenav;
+  background-color: #FF69B4;
+  text-align: justify;
+  color: #000000;
+  font-size:xx-large;
+}
+.content{
+  grid-area: content;
+  font:bolder;
+  text-align: justify;
+  color: #c41c70;
+  font-size:xx-large;
+
+}
+.footer{
+  grid-area: footer;
+  background-color: #FF69B4;
+  text-align: center;
+  color: #000000;
+  font-size:large;
+
+}
+
+.anchor {
+  font-size: 50px;
+  
+ }
+
+
